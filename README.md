@@ -1,7 +1,7 @@
 Part 1 – Object-oriented programming, unit testing, and reading from file - 70%
 
 
-**Scenario:**
+## Scenario:
 
 You have been tasked to design, implement, and unit test part of an Accommodation Booking system. The
 system is ultimately expected to support several specific accommodation types such as standard rooms,
@@ -9,34 +9,34 @@ apartments, villas, and glamping pods.
 You are the first developer of the system and are tasked with designing and implementing the standard room
 part of the system, although you are encouraged to design the system so that it can support the future
 addition of other specific accommodation types.
-All accommodation types will have the following attributes with the allowable values shown:
+All accommodation types will have the following attributes with the allowable values shown: <br/>
 
-Name: A String of no more than 40 characters
-Location: A String of no more than 40 characters
-Average rating: A number between 0 and 5, e.g. 4.3
-Number of ratings: A whole number between 0 to 50,000
+**Name:** A String of no more than 40 characters <br/>
+**Location:** A String of no more than 40 characters <br/>
+**Average rating:** A number between 0 and 5, e.g. 4.3 <br/>
+**Number of ratings:** A whole number between 0 to 50,000 <br/>
 
 
 
 **A standard room will contain the following attributes with the allowable values shown:**
 
-Price per night: A non-negative monetary value, e.g. £55.00
-Number of beds: A number greater than 0 but less than 8
-Room type: Must be one of the following values: BASIC, LUXURY, DELUXE, SUITE
+Price per night: A non-negative monetary value, e.g. £55.00 <br/>
+Number of beds: A number greater than 0 but less than 8 <br/>
+Room type: Must be one of the following values: BASIC, LUXURY, DELUXE, SUITE <br/>
 
 
-**Required Functionality**
+## Required Functionality 
 At this time, the content of the other accommodation types is unspecified, but all accommodation types must
 be rateable. This means that they must have the following method to allow the rating of the accommodation
-to be updated appropriately:
-• addRating(int)
+to be updated appropriately: <br/>
+• addRating(int) <br/>
 This method will have one integer parameter which should be between 1 and 5 inclusive that represents the
 new rating the accommodation has been given. If a new rating is outside the 1 to 5 range, the method should
 throw an IllegalArgumentException. For valid values, the method should use the new rating to calculate and
 update the average rating and also then increment the number of ratings. The calculation for a new average
-rating is as follows:
+rating is as follows: <br/>
 𝑁𝑒𝑤 𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑟𝑎𝑡𝑖𝑛𝑔 = (𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑟𝑎𝑡𝑖𝑛𝑔 × 𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠) + 𝑛𝑒𝑤 𝑟𝑎𝑡𝑖𝑛𝑔
-𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠 + 1
+𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠 + 1 <br/>
 Please note that the addRating() method should also increment the current number of ratings after this
 calculation. It should also not be possible to update the average rating or number of ratings fields by calling
 any other methods.
@@ -45,19 +45,19 @@ functionalities:
 
 printToScreen() : void Displays the accommodation details to the console precisely as
 shown below:
-Name :The Plaza
-Location :New York
-Rating :4.3 from 57 ratings
-Price :£57.00
-Num Beds :3
-Type :BASIC
+Name :The Plaza <br/>
+Location :New York <br/>
+Rating :4.3 from 57 ratings <br/>
+Price :£57.00 <br/>
+Num Beds :3 <br/>
+Type :BASIC <br/>
 
 
 getCSVFormat() : String Returns a structured text representation of the accommodation in
 the format shown in each data row of the rooms.csv file.
 
 
-**Tasks:**
+## Tasks: 
 **1. OOP:**
 Examine the rooms.csv file and determine the essential characteristics of a standard room within this
 system. Each row of data shows the values that will need to be stored for a Standard Room.

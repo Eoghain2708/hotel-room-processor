@@ -1,6 +1,40 @@
 Part 1 – Object-oriented programming, unit testing, and reading from file - 70%
 
 
+## CSV file
+Name,Location,Average rating,Number of ratings,Price per night,Number of beds,Room type<br/>
+Apex Grassmarket,Edinburgh,4.5,2200,125,2,LUXURY<br/>
+Bullitt Hotel,Belfast,4.6,890,120,1,DELUXE<br/>
+Clayton Hotel Burlington,Dublin,4.4,2500,135,1,DELUXE<br/>
+Dakota Hotel,Manchester,4.8,1100,165,1,DELUXE<br/>
+Europa Hotel,Belfast,4.5,3100,110,2,LUXURY<br/>
+Grand Hotel,Cardiff,4.3,1600,95,1,DELUXE<br/>
+Hilton Canary Wharf,London,4.4,3200,160,2,LUXURY<br/>
+Holiday Inn Express  ,Belfast   ,4.1,1200,85,2,LUXURY<br/>
+Ibis Royal Mile,Edinburgh,4.2,3500,80,1,BASIC<br/>
+Jurys Inn,Glasgow,4,2700,70,1,BASIC<br/>
+Kimpton Clocktower,Manchester,4.7,3100,155,5,SUITE<br/>
+Maldron Hotel Parnell,Dublin,4.1,1800,95,4,SUITE<br/>
+Malmaison,Glasgow,4.5,1400,130,2,LUXURY<br/>
+Motel One Royal Exchange,Manchester,4.5,2800,85,2,LUXURY<br/>
+Premier Inn City Centre,Belfast,4.2,5600,65,1,BASIC<br/>
+Radisson Blu,Glasgow,4.4,1900,110,1,DELUXE<br/>
+Savoy Hotel,London,4.8,7200,380,1,DELUXE<br/>
+Sleeperz Hotel,Cardiff,4.1,1100,60,2,LUXURY<br/>
+St Pancras Renaissance,London,4.7,4100,210,3,SUITE<br/>
+Temple Bar Inn,Dublin,4.3,2100,115,2,LUXURY<br/>
+Ten Square Hotel,Belfast,4.4,980,105,1,DELUXE<br/>
+The Balmoral,Edinburgh,4.9,4800,280,1,DELUXE<br/>
+The Merchant Hotel,Belfast,4.8,2450,185,1,DELUXE<br/>
+The Midland,Manchester,4.6,4200,140,1,DELUXE<br/>
+The Ritz,London,4.9,8500,450,1,DELUXE<br/>
+The Shelbourne,Dublin,4.8,3600,250,1,DELUXE<br/>
+Titanic Hotel,Belfast,4.7,1850,145.5,4,SUITE<br/>
+Titanic Hotel,Liverpool,4.7,2900,125,3,SUITE<br/>
+Travelodge Covent Garden,London,3.9,12400,75,1,BASIC<br/>
+YOTEL City Centre,Edinburgh,ZZZZ,1500,90,1,DELUXE<br/>
+
+
 ## Scenario:
 
 You have been tasked to design, implement, and unit test part of an Accommodation Booking system. The

@@ -69,8 +69,8 @@ new rating the accommodation has been given. If a new rating is outside the 1 to
 throw an IllegalArgumentException. For valid values, the method should use the new rating to calculate and
 update the average rating and also then increment the number of ratings. The calculation for a new average
 rating is as follows: <br/>
-𝑁𝑒𝑤 𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑟𝑎𝑡𝑖𝑛𝑔 = (𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑟𝑎𝑡𝑖𝑛𝑔 × 𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠) + 𝑛𝑒𝑤 𝑟𝑎𝑡𝑖𝑛𝑔
-𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠 + 1 <br/>
+𝑁𝑒𝑤 𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑟𝑎𝑡𝑖𝑛𝑔 = (𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑟𝑎𝑡𝑖𝑛𝑔 × 𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠) + 𝑛𝑒𝑤 𝑟𝑎𝑡𝑖𝑛𝑔 /
+(𝑐𝑢𝑟𝑟𝑒𝑛𝑡 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑎𝑡𝑖𝑛𝑔𝑠 + 1) <br/>
 Please note that the addRating() method should also increment the current number of ratings after this
 calculation. It should also not be possible to update the average rating or number of ratings fields by calling
 any other methods.

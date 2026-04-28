@@ -1,3 +1,5 @@
+This is an exam specification, the code for which was written without access to the internet with a time limit of 3 hours.
+
 Part 1 – Object-oriented programming, unit testing, and reading from file - 70%
 
 
